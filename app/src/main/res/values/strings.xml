@@ -1,3 +1,195 @@
 <resources>
     <string name="app_name">StartCode</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="error_message_name">Masukkan Nama Anda</string>
+    <string name="error_message_email">Masukkan Email Valid</string>
+    <string name="error_message_age">Masukkan Usia</string>
+    <string name="error_message_password">Masukkan Password</string>
+    <string name="error_email_exists">Email sudah terdaftar</string>
+    <string name="error_password_match">Password tidak cocok</string>
+    <string name="error_valid_email_password">Email atau Password salah</string>
+    <string name="error_message_nisn">Masukkan NISN</string>
+    <string name="error_message_telp">Masukkan No Telepon</string>
+    <string name="error_message_kls">Masukkan Kelas</string>
+    <string name="error_message_sklh">Masukkan Sekolah</string>
+    <string name="success_message">Daftar Sukses</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+
+    <string name="basdat">Adalah himpunan kelompok data (arsip) yang saling berhubungan yang diorganisasi sedemikian rupa agar kelak dapat dimanfaatkan kembali dengan cepat dan mudah.
+
+Database dikelola menggunakan program atau sistem yang disebut dengan Database Management System (DBMS). DBMS adalah sebuah perangkat lunak yang yang didesain untuk membantu memelihara dan memanfaatkan kumpulan data yang besar. DBMS juga menyisipkan kode tertentu yang digunakan untuk mengatur data yang ada didalamnya sehingga mudah digunakan.
+</string>
+
+    <string name="css1">Apakah itu CSS? </string>
+    <string name="css2"> 	- Feature untuk membuat dynamic HTML
+        \n- Style sheet mendeskripsikan bagaimana tampilan document HTML di layar (template)
+ 	    \n- Membuat special efek (mendefinisikan style untuk dengan style bold dan italic dan berwarna biru
+ 	    \n- Support ke semua browser
+    </string>
+    <string name="css3">Tujuan :</string>
+    <string name="css4"> 	- Memahami konsep CSS
+        \n- Memahami aturan penulisan pada CSS
+ 	    \n- Memahami selector sebagai pengontrol design
+        \n- Memahami pembuatan background
+ 	    \n- Memformat text pada web
+ 	    \n- Memahami pengaturan bantuk font
+    </string>
+    <string name="css5">Aturan penulisan : </string>
+    <string name="css6"> 	- Nilai untuk property tidak boleh dalam tanda petik. ex : color : green
+ 	        \n- Nama property bersifat case sensitive.
+                \n color : green
+                \n property : color
+                \n value : green
+</string>
+    <string name="css7">Penggunaan CSS :</string>
+    <string name="css8">External Style Sheet :
+\n•	Dengan menggunakan teknik ini kita dapat memanggil style CSS pada file CSS yang kita inginkan dengan menggunakan perintah “Link rel” yang berfungsi untuk menghubungkan kedalam sebuah style CSS eksternal dengan nama yang telah kita tentukan
+\n•	Bentuk :
+        \n \t link rel=”stylesheet” type=”text/css”
+        \n\t href=”css_files.css”>
+        \nDimana:
+        \n \t Ini merupakan tag penutup “>”
+</string>
+    <string name="css9">Internal Style Sheet :
+\n•	Pada teknik ini style diletakkan pada tengah tag antara tag head Aturan-aturan dalam style ini diatur sedemikian rupa untuk digunakan pada suatu tempat maupun untuk keseluruhan situs.
+</string>
+    <string name="css10">Aturan penulisan pada CSS :</string>
+    <string name="css11">•	Syntaxis CSS dibagi dalam 3 bagian :
+                            Selector {property : value}
+                            \nDimana:
+                               \n \t-	Selector : tag HTML yang akan didefinisikan (body, H1, Link, dll).
+                                \n \t- Property : atribut yang akan diubah
+                    \n•	Cara penulisan :
+                    \n\t-	FONT-FAMILY : ”sans-serif”
+                    \n\t-	FONT-SERIF : ‘small’;
+                    \n•	Cara mendeklarasikan kelompok : (tanda koma serta dan )
+                    \n\t-	H1, H2 {color : green}
+                    \n\t-	H3, H4, H5 {color : red}
+</string>
+
+    <string name="basdat1">Apa itu Basis Data?</string>
+    <string name="basdat2">Adalah himpunan kelompok data (arsip) yang saling berhubungan yang diorganisasi sedemikian rupa agar kelak dapat dimanfaatkan kembali dengan cepat dan mudah.
+                            \n\n
+                            Database dikelola menggunakan program atau sistem yang disebut dengan Database Management System (DBMS). DBMS adalah sebuah perangkat lunak yang yang didesain untuk membantu memelihara dan memanfaatkan kumpulan data yang besar.
+                            DBMS juga menyisipkan kode tertentu yang digunakan untuk mengatur data yang ada didalamnya sehingga mudah digunakan. </string>
+    <string name="basdat3">Tujuan:</string>
+    <string name="basdat4">-	Kemudahan dan kecepatan dalam pengambilan data (speed)
+\n-	Efisiensi ruang penyimpanan (space)
+Mengurangi / menghilangkan redudansi data
+\n-	Keakuratan (Accuracy)
+Pembentukan kode dan relasi antar data berdasar aturan / batasan (constraint) tipe data,
+        domain data, keunikan data, untuk menekan ketidakakuratan saat entry / penyimpanan data.
+\n-	Ketersediaan (Avaibility)
+Pemilahan data yang sifatnya pasif (off-line, distributed) dari database aktif
+\n-	Kelengkapan (Completeness)
+Kompleksnya data menyebabkan perubahan struktur database sehingga menjadi lengkap.
+\n-	Keamanan (Security)
+Memberikan keamanan atas hak akses data.
+\n-	Pemakaian Bersama (Sharebility)
+Bersifat multiuser.
+</string>
+    <string name="basdat5">Komponen Sistem Basis Data</string>
+    <string name="basdat6">-	Perangkat Keras (Hardware)
+Komputer, memori, storage (Harddisk), peripheral, dll
+\n-	Sistem Operasi (Operating System)
+Program yang menjalankan sistem komputer, mengendalikan resource komputer dan melakukan berbagai operasi dasar sistem komputer.
+\n-	Basis Data (Database)
+Menyimpan berbagai obyek database (struktur tabel, indeks,dll)
+\n-	DBMS (Database Management System)
+Perangkat lunak yang memaintain data dalam jumlah besar.
+\n-	Pemakai (User)
+Para pemakai database.
+\n-	Aplikasi (perangkat lunak) lain
+Program lain dalam DBMS.
+</string>
+    <string name="basdat7">Bahasa Basis Data</string>
+    <string name="basdat8">Data Definition Language (DDL)
+\nDigunakan dalam membuat tabel baru, indeks, mengubah tabel, menentukan struktur tabel, dsb.
+Data Dictionary: merupakan metadata (superdata), yaitu data yang mendeskripsikan data sesungguhnya. Data dictionary ini akan selalu diakses dalam suatu operasi database sebelum suatu file data yang sesungguhnya diakses.
+</string>
+    <string name="basdat9">Data Manipulation Language (DML)
+\nDigunakan dalam memanipulasi dan pengambilan data pada database.
+Manipulasi data, dapat mencakup:
+\n- Pemanggilan data yang tersimpan dalam database (query)
+\n- Penyisipan/penambahan data baru ke database (Insert)
+\n- Pengubahan data pada database (Update)
+\n- Penghapusan data dari database (Delete)
+</string>
+
+    <string name="html1">Apa itu HTML?</string>
+    <string name="html2">HTML (Hypertext Markup Language) merupakan bahasa pemrograman web yang digunakan untuk membuat halaman situs.
+        HTML dan CSS keduanya tidak bisa dipisahkan saat kita membangun sebuah website baik itu statis maupun dinamis,
+        pengetahuan tentang keduanya sangat diperlukan bagi kita yang ingin mendalami desain maupun pemrograman web. </string>
+    <string name="html3">Bentuk umum HTML?</string>
+    <string name="html4">Letakkan perintah-perintah HTML di sini. Ini halaman situs Anda. Letakkan perintah-perintah HTML di sini.
+        Setelah diketikkan, Anda simpan dengan nama latihan.html. Untuk mengeceknya Anda double click file yang telah Anda simpan.
+        Sebenarnya Anda dapat menggunakan ekstensi .htm, tetapi supaya sama, maka sebaiknya digunakan ekstensi .html.</string>
+    <string name="html5">Aplikasi apa saja yang biasa digunakan?</string>
+    <string name="html6">Notepad++ , Sublime Text , Gedit , Bracket , Notepad , CKEditor , Dream Weaver dan banyak lainnya.</string>
+    <string name="html7">Elemen</string>
+    <string name="html8">Elemen merupakan isi tag. Biasanya berupa teks, tapi tidak selalu berupa teks bisa juga berupa sinyaks lainnya.</string>
+
+    <string name="java1">Apa itu JavaScript?</string>
+    <string name="java2">Javascript merupakan bahasa yang sangat ringan bisa berjalan di browser, bahasa pemrogramman dengan first-class functions atau biasa menyebut side programming .
+biasanya kode dari javascript di sisipkan di antara kode-kode HTML. JS merupakan prototype-based, multi-paradigm, bahasa scripting dinamis, medukung object-oriented, diperlukan, dan declarative (mis. functional programming) styles.
+</string>
+    <string name="java3">Menyimpan informasi yang anda butuhkan-Variable</string>
+    <string name="java4">anda perlu mengetahui apa itu javascript, apa yang bisa dimanfaatkan bagi anda, bagaimana menggunakannya dengan teknologi web lain, dan seperti apa fitur utama dari level tertinggi. Pada aplikasi ini kita
+        akan mengajari hal yang lebihdasar, melihat bagaimana bekerja dengan hal paling dasar pada block pembangun JavaScript</string>
+    <string name="java5">Matematika dasar di JavaScript — number dan operator</string>
+    <string name="java6">Disini anda akan mendiskusikan matematika di JavaScript, bagaimana kita mengabungkan operator dan fitur lain untuk berhasil
+        memanipulasi angka melakukan perintah kita.</string>
+    <string name="java7">Metod string yang berguna</string>
+    <string name="java8">Sekarang kita telah melihat pada dasar string, mari kita beralih dan mulai memikirkan tentang operasi apa yang berguna yang bisa kita gunakan dengan method built-in pada string, seperti mencari panjang teks string,
+    menggabung dan memisahkan string, mensubtitusi sebuah karakter pada string ke lainnya, dan banyak lagi.</string>
+    <string name="java9">Arrays</string>
+    <string name="java10">Pada artikel terakhir pada modul ini, kita akan melihat pada array — cara rapi untuk menyimpan daftar item pada sebuah nama variabel. Disini kita akan melihat kenapa ini berguna, kemudian mencari tahu bagaimana
+        membuat array, mengambil, menambah, dan menghapus item yang tersimpan pada array, dan banyak lagi.</string>
+    <string name="java11">Note kecil </string>
+    <string name="java12">Dalam mempelajari JavaScript, sebaiknya telah menguasai dasar-dasar HTML, dan bisa membuat halaman web sederhana menggunakan HTML.
+        Pengetahuan tentang CSS dan PHP juga akan membantu, walaupun tidak diharuskan.</string>
+
+
+    <string name="recycler">
+        The RecyclerView widget is a more advanced and flexible version of ListView.
+        In the RecyclerView model, several different components work together to display your data.
+        The overall container for your user interface is a RecyclerView object that you add to your layout.
+        The RecyclerView fills itself with views provided by a layout manager that you provide. You can use
+        one of our standard layout managers (such as LinearLayoutManager or GridLayoutManager), or implement your own.
+        The views in the list are represented by view holder objects. These objects are instances of a class you define
+        by extending RecyclerView.ViewHolder. Each view holder is in charge of displaying a single item with a view.
+        For example, if your list shows music collection, each view holder might represent a single album.
+        The RecyclerView creates only as many view holders as are needed to display the on-screen portion of the
+        dynamic content, plus a few extra. As the user scrolls through the list, the RecyclerView takes the off-
+        screen views and rebinds them to the data which is scrolling onto the screen.
+    </string>
+
+    <string name="laundry">
+        Aplikasi berbasis dekstop satu ini adalah salah satu aplikasi yang cukup membantu bagi kalangan pengusaha laundry dan para konsumennya.
+        Aplikasi ini membantu dalam penghitungan harga berdasarkan berat pakaian. Dengan banyak pilihan kebutuhan konsumen seperti setrika saja
+        ataupun cuci kering dan setrika sekaligus. Selain itu, aplikasi ini juga menyediakan anggal masuk pakaian ke laundry dan kapan akan selesai dikerjakan.
+    </string>
+
+    <string name="kalkulator">
+        Aplikasi kalkulator bebasis dekstop ini merupakan aplikasi perhitungan dengan berbagai operasi hitungan. Dengan aplikasi ini banyak
+        warga akan dimudahkan dalam perhitungan matematika.
+    </string>
+
+    <string name="luas">
+        Sama halnya dengan aplikasi kalkulator, aplikasi ini dirancang untuk memudahkan konsumen dalam har perhitungan. Namun, pada aplikasi ini
+        memiliki kelebihan yaitu menghitung luas sebuah persegi tanpa menghafal sebuah rumus. Kita hanya perlu memasukkan nilai sisi dari persegi saja.
+        Cukup mudah dan sangat membantu para siswa saat melakukan perhitungan.
+    </string>
+
+    <string name="widget">
+        App Widgets Overview
+Widgets are an essential aspect of home screen customization. You can imagine them as "at-a-glance" views of an apps most important data and functionality
+        that is accessible right from the users home screen. Users can move widgets across their home screen panels, and, if supported, resize them to tailor the amount of information within a widget to their preference.
+    </string>
+
 </resources>

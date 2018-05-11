@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03aca1"
+        android:elevation="4dp"
+        android:minHeight="?android:attr/actionBarSize">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:contentDescription="TODO"
+            android:text="APPLICATION"
+            android:textAlignment="center"
+            android:textColor="@color/colorwhite"
+            android:textSize="20dp" />
+    </android.support.v7.widget.Toolbar>
+
+    <Button
+        android:id="@+id/recycler"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="RecyclerView" />
+
+    <Button
+        android:id="@+id/laundry"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Aplikasi Dekstop Laundry" />
+
+    <Button
+        android:id="@+id/kalkulator"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Kalkulator" />
+
+    <Button
+        android:id="@+id/persegi"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Hitung Luas persegi" />
+
+
+    <Button
+        android:id="@+id/Widget"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Basic Widget" />
+
+
+</LinearLayout>

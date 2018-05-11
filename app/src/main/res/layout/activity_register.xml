@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#353535"
+    android:orientation="vertical"
+    tools:context="id.sch.smktelkom_mlg.www.startcode.RegisterActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#292929"
+        android:elevation="4dp"
+        android:minHeight="?android:attr/actionBarSize">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:contentDescription="TODO"
+            android:foregroundGravity="center"
+            android:src="@drawable/st"
+            android:tint="#fff" />
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tool"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="DAFTAR AKUN BARU"
+        android:textColor="@color/text"
+        android:textSize="17dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/DaftarNISN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:textColorHint="@color/text">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/daftarNISN"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="NISN"
+            android:inputType="number"
+            android:textColor="@color/colorwhite" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/DaftarNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:gravity="center"
+        android:textColorHint="@color/text">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/daftarNama"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="Nama"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorwhite" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/DaftarEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColorHint="@color/text">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/daftarEmail"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="Email"
+            android:inputType="text"
+            android:textColor="@color/colorwhite" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/DaftarTelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColorHint="@color/text">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/daftarTelp"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="Telepon"
+            android:inputType="text"
+            android:textColor="@color/colorwhite" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/DaftarSekolah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorwhite"
+        android:textColorHint="@color/text">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/daftarSekolah"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="Sekolah"
+            android:inputType="text"
+            android:textColor="@color/colorwhite" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/DaftarPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColorHint="@color/text">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/daftarPassword"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="Password"
+            android:inputType="text"
+            android:textColor="@color/colorwhite" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/DaftarConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColorHint="@color/text">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/daftarConfirmPassword"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="Confirm Password"
+            android:inputType="text"
+            android:textColor="@color/colorwhite" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/appCompatButtonRegister"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_rounded"
+        android:text="MULAI BELAJAR" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/appCompatTextViewLoginLink"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Already a member? Login"
+        android:textColor="@color/colorwhite"
+        android:textSize="16sp" />
+
+</LinearLayout>
