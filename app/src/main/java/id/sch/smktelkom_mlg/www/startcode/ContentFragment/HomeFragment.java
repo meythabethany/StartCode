@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ViewFlipper;
 
+import id.sch.smktelkom_mlg.www.startcode.HomeContent.ApplicationFragment;
 import id.sch.smktelkom_mlg.www.startcode.QuizFragment;
 import id.sch.smktelkom_mlg.www.startcode.R;
 
@@ -33,6 +34,16 @@ public class HomeFragment extends Fragment {
             }
         });
 
+        Button App = v.findViewById(R.id.app);
+        App.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentTransaction fragmentTransaction1 = getFragmentManager().beginTransaction();
+                fragmentTransaction1.replace(R.id.fragment_container, new ApplicationFragment());
+                fragmentTransaction1.addToBackStack(null);
+                fragmentTransaction1.commit();
+            }
+        });
 
         int images[] = {R.drawable.ww, R.drawable.qq, R.drawable.ee};
 
