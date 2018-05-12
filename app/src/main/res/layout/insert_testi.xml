@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03aca1"
+        android:elevation="4dp"
+        android:minHeight="?android:attr/actionBarSize">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:contentDescription="TODO"
+            android:text="Testimoni"
+            android:textAlignment="center"
+            android:textColor="@color/colorwhite"
+            android:textSize="20dp" />
+    </android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_testi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Testimoni"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="insert" />
+
+</LinearLayout>

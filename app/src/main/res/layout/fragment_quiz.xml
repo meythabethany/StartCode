@@ -12,12 +12,6 @@
         android:elevation="4dp"
         android:minHeight="?android:attr/actionBarSize">
 
-        <!--<ImageButton-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:background="@android:color/transparent"-->
-        <!--app:srcCompat="@drawable/ic_chevron_left_black_24dp"-->
-        <!--android:id="@+id/back"/>-->
 
         <TextView
             android:layout_width="match_parent"

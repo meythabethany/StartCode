@@ -14,6 +14,7 @@ import android.widget.ViewFlipper;
 import id.sch.smktelkom_mlg.www.startcode.HomeContent.ApplicationFragment;
 import id.sch.smktelkom_mlg.www.startcode.QuizFragment;
 import id.sch.smktelkom_mlg.www.startcode.R;
+import id.sch.smktelkom_mlg.www.startcode.Testimoni.TestimoniList;
 
 public class HomeFragment extends Fragment {
     ViewFlipper v_flipper;
@@ -40,6 +41,17 @@ public class HomeFragment extends Fragment {
             public void onClick(View v) {
                 FragmentTransaction fragmentTransaction1 = getFragmentManager().beginTransaction();
                 fragmentTransaction1.replace(R.id.fragment_container, new ApplicationFragment());
+                fragmentTransaction1.addToBackStack(null);
+                fragmentTransaction1.commit();
+            }
+        });
+
+        Button Tes = v.findViewById(R.id.testi);
+        Tes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentTransaction fragmentTransaction1 = getFragmentManager().beginTransaction();
+                fragmentTransaction1.replace(R.id.fragment_container, new TestimoniList());
                 fragmentTransaction1.addToBackStack(null);
                 fragmentTransaction1.commit();
             }

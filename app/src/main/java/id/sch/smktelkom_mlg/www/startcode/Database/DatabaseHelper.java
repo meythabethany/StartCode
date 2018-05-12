@@ -30,19 +30,26 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String COLUMN_USER_TELP = "user_telp";
     private static final String COLUMN_USER_SEKOLAH = "user_sekolah";
     private static final String COLUMN_USER_PASSWORD = "user_password";
-    private static final String COLUMN_IMAGE = "img";
-    private static final String COLUMN_TESTI = "text";
 
+    private static final String TABLE_TESTI = "testimoni";
+    private static final String COLUMN_ID = "id";
+    private static final String COLUMN_NAME = "nama";
+    private static final String COLUMN_TESTI = "testi";
+
+    private String CREATE_TESTI_TABLE = "CREATE TABLE " + TABLE_TESTI + "("
+            + COLUMN_ID + " INTEGER PRIMARY KEY , "
+            + COLUMN_NAME + " TEXT, "
+            + COLUMN_TESTI + " TEXT"
+            + ")";
     // create table sql query
     private String CREATE_USER_TABLE = "CREATE TABLE " + TABLE_USER + "("
-            + COLUMN_USER_NISN + " INTEGER PRIMARY KEY ,"
+            + COLUMN_USER_NISN + " INTEGER PRIMARY KEY AUTOINCREMENT,"
             + COLUMN_USER_NAME + " TEXT,"
             + COLUMN_USER_EMAIL + " TEXT,"
             + COLUMN_USER_TELP + " TEXT,"
             + COLUMN_USER_SEKOLAH + " TEXT,"
             + COLUMN_USER_PASSWORD + " TEXT"
-            + COLUMN_IMAGE + " BLOB"
-            + COLUMN_TESTI + " TEXT" + ")";
+            + ")";
 
     // drop table sql query
     private String DROP_USER_TABLE = "DROP TABLE IF EXISTS " + TABLE_USER;
@@ -55,6 +62,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL(CREATE_USER_TABLE);
+        db.execSQL(CREATE_TESTI_TABLE);
     }
 
     @Override
@@ -62,7 +70,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL(DROP_USER_TABLE);
         onCreate(db);
     }
-
 
     public void addUser(User user) {
         SQLiteDatabase db = this.getWritableDatabase();
@@ -204,4 +211,14 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     }
 
+
+    public void addTesti(String nama, String testimoni) {
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        ContentValues values = new ContentValues();
+        values.put(COLUMN_NAME, nama);
+        values.put(COLUMN_TESTI, testimoni);
+        long id = db.insert(TABLE_TESTI, null, values);
+
+    }
 }
