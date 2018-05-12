@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.sch.smktelkom_mlg.www.startcode.HomeContent.AboutFragment">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03aca1"
+        android:elevation="4dp"
+        android:minHeight="?android:attr/actionBarSize">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:contentDescription="TODO"
+            android:foregroundGravity="center"
+            android:src="@drawable/st"
+            android:tint="#fff" />
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/sa"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/tool"
+        android:layout_margin="20dp"
+        android:src="@drawable/meytha" />
+
+    <ImageView
+        android:id="@+id/ss"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/sa"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/onil" />
+
+    <ImageView
+        android:id="@+id/sq"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/ss"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/farah" />
+
+    <ImageView
+        android:id="@+id/sw"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/sq"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/luki" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/sa"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="36dp"
+        android:layout_toEndOf="@+id/sa"
+        android:text="Programmer Application " />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sq"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginBottom="39dp"
+        android:text="Desaigner Application " />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sw"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="39dp"
+        android:text="Layouting Application" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sw"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_marginBottom="25dp"
+        android:text="Data Application" />
+
+</RelativeLayout>

@@ -24,7 +24,7 @@ import id.sch.smktelkom_mlg.www.startcode.Video.VideoTiga;
 public class VideoFragment extends Fragment {
 
     private static final String API_KEY = "AIzaSyDqZQA1OF6eDU0kylYPtAujf9IrzC6WOKg";
-    private static String VIDEO_ID = "EGy39OMyHzw";
+    private static String VIDEO_ID = "FCMxA3m_Imc";
 
     Button BASIS, VIEW, JAVA, KONEK;
 

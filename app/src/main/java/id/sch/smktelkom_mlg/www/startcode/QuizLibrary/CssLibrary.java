@@ -6,18 +6,17 @@ package id.sch.smktelkom_mlg.www.startcode.QuizLibrary;
 
 public class CssLibrary {
     private String mQuestion[] = {
-            "Database dikelola menggunakan program atau sistem yang disebut dengan...",
-            "Data Manipulation Language (DML)digunakan dalam memanipulasi dan pengambilan data pada database.Manipulasi data, dapat mencakup...",
+            "Apakah itu CSS? ...",
+            "Apa itu Intline Style Sheet ...",
             "Sebutkan bahasa basis data",
             "Yang bukan tujuan basis data"
     };
 
     private String mChoices[][] = {
-            {"Database Management System (DBMS)", "PhpMyAdmin", "Mysql"},
-            {"read", "Update,delete,insert", "Seeds"},
-            {"DBL,DDL", "DDL,DML", "DBA,DDL"},
-            {"DBL,DDL", "DDL,DML", "DBA,DDL"},
-            {"rumah", "sharebility", "Security"}
+            {"informasi tambahan dari Tag", "Feature untuk membuat dynamic HTML", "Merupakan Tag paragrafh dalam HTML", "merupakan tag pembuka diakhiri dengan tanda "},
+            {"read", "Update,delete,insert", "CSS yang dibuat dalam sebuah tag HTML ", "CSS yang dibuat diluar sebuah tag HTML "},
+            {"DBL,DDL", "DDL,DML", "DBA,DDL", "apa aja"},
+            {"rumah", "sharebility", "Security", "Apa aja"}
     };
 
     private String mCorrectAnswers[] = {"Database Management System (DBMS)", "Update,delete,insert", "DDL,DML", "DDL,DML", "rumah"};

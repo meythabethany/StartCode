@@ -6,14 +6,14 @@ package id.sch.smktelkom_mlg.www.startcode.QuizLibrary;
 
 public class HtmlLibrary {
     private String mQuestion[] = {
-            "Database dikelola menggunakan program atau sistem yang disebut dengan...",
+            "Apa itu HTML?",
             "Data Manipulation Language (DML)digunakan dalam memanipulasi dan pengambilan data pada database.Manipulasi data, dapat mencakup...",
             "Sebutkan bahasa basis data",
             "Yang bukan tujuan basis data"
     };
 
     private String mChoices[][] = {
-            {"Database Management System (DBMS)", "PhpMyAdmin", "Mysql"},
+            {"bahasa pemrograman web yang digunakan untuk membuat halaman situs", "PhpMyAdmin", "Mysql", "Hyper Text"},
             {"read", "Update,delete,insert", "Seeds"},
             {"DBL,DDL", "DDL,DML", "DBA,DDL"},
             {"DBL,DDL", "DDL,DML", "DBA,DDL"},
